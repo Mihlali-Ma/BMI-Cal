@@ -1,0 +1,51 @@
+.BMI{
+    border: 5px solid rgb(255, 255, 0);
+}
+
+h4{
+    color: white;
+    margin-left: 5%;
+}
+
+form{
+    border: 5px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    width: 650px;
+}
+
+.number{
+    margin-top: 2%;
+    border-top: none;
+    margin-left: 10%;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#numb2{
+    margin-bottom: 2%;
+}
+
+#numb1{
+    width: 200px;
+}
+
+.num{
+    margin-left: 30%;
+}
+/* 
+.space{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#check{
+    margin-left: 30%;
+    margin-right: 30%;
+} */

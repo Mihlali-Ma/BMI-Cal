@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>BMI CALCULATOR</title>
+</head>
+<body>
+        <div class="BM1">
+            
+            <form name="forms">
+                <h4>Please note that the height is CM and the weight is in kg no need to specify(cm or kg)</h4>
+                <br>
+                <div class="number">
+                    <input id="numb1"
+                     class="space" type="text" placeholder="enter weight(.kg)" name="first">
+                </div>
+                <div>
+                    
+                    <input class="number" id="numb2" 
+                    class="space"
+                    type="text" name="second" placeholder="enter height(.cm)">
+                </div>
+                <div>
+                    <input class="num"
+                    id="calculate"
+                     type="button" value="calculate BMI"
+                     onclick="BMI()">
+                     <input id="re"
+                     type="button" value="Clear"
+                     onclick="(first,second,Display,status).value=''">
+                    
+                </div>
+                <div>
+                   
+                    <input class="number"
+                     type="text" name="Display" placeholder="Results">
+                </div>
+                <input class="number" id="check" type="text" name="status" placeholder="Comment.">
+            </form>
+        </div>
+    </div>
+    <script src="./script/code.js"></script>
+</body>
+</html>
